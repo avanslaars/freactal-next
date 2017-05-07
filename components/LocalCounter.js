@@ -11,6 +11,7 @@ const stateInitializer = {
 const wrapInState = provideState(stateInitializer)
 
 export default wrapInState(injectState(({state, effects}) => {
+  const handleInput = (evt) => effects.updateMessage(evt.target.value)
   return (
     <div>
       <div>
