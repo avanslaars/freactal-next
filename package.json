@@ -1,0 +1,22 @@
+{
+  "name": "freactal-next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {},
+  "dependencies": {
+    "freactal": "^1.0.0",
+    "next": "^2.3.1",
+    "ramda": "^0.23.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
